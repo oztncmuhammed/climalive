@@ -12,12 +12,12 @@ function WeatherApi({ setWeatherData }) {
           return res.json();
         })
       );
-      setWeatherData(results); // Home state’ini güncelliyor
+      setWeatherData(results);
     };
     fetchData();
   }, [setWeatherData]);
 
-  return null; // UI render etmiyoruz
+  return null;
 }
 
 export default WeatherApi;

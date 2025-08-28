@@ -5,7 +5,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary shadow">
       <div className="container">
         <Link className="navbar-brand" to="/">
-          WeatherApp
+          ClimvaLive
         </Link>
         <button
           className="navbar-toggler"
